@@ -17,6 +17,7 @@ public class CustomList {
     // Will be implemented later using TDD (leave blank for now)
     public boolean hasCity(City city) { return (cities.contains(city));}
 
+    // delete city method
     public void deleteCity(City city) {
         cities.remove(city);
     }
