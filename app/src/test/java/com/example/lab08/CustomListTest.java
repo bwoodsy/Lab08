@@ -28,6 +28,7 @@ public class CustomListTest {
         CustomList list = new CustomList();
         City calgary = new City("Calgary", "Alberta");
         City toronto = new City("Toronto", "Ontario");
+
         list.addCity(calgary);
         list.addCity(toronto);
 
